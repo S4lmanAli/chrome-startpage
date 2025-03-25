@@ -97,22 +97,35 @@ function buildMsg() {
 
 function updateTime() {
     /**
-     * Get the current time and date and return it.
+     * Get the current time and date and return it in 12-hour format with seconds.
      */
     currentDate = new Date()
     date = currentDate.getDate()
     month = dateMap[currentDate.getMonth()]
     minutes = currentDate.getMinutes()
-    time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes)
+    seconds = currentDate.getSeconds()
+    hours = currentDate.getHours()
+    
+    // Convert to 12-hour format
+    let period = hours >= 12 ? "PM" : "AM"
+    hours = hours % 12
+    hours = hours ? hours : 12 // Handle midnight (0 hours)
+    
+    // Add leading zeros to minutes and seconds if needed
+    minutes = minutes < 10 ? "0" + minutes : minutes
+    seconds = seconds < 10 ? "0" + seconds : seconds
+    
+    time = hours + ":" + minutes + ":" + seconds + " " + period
     finalDate = date + " " + month + ", " + time
     document.getElementById(dateId).textContent = finalDate
 }
 
 function updateTimeHook() {
     updateTime()
+    // Update every second instead of every 30 seconds
     interval = setInterval(() => {
         updateTime()
-    }, 30 * 1000)
+    }, 1000)
 }
 
 function inRange(number, min, max) {

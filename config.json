@@ -1,32 +1,48 @@
 {
   "squares": [
     { "name": "Media", "links": [
-	{ "name": "Youtube", "url": "https://youtube.com" },
-	{ "name": "Netflix", "url": "https://netflix.com" },
-	{ "name": "Twitch", "url": "https://www.twitch.tv/" }
-      ]
-    },
-    { "name": "Work", "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+        { "name": "Youtube", "url": "https://youtube.com" }
       ]
     },
     { "name": "Social", "links": [
         { "name": "Facebook", "url": "https://facebook.com" },
         { "name": "Instagram", "url": "https://instagram.com" },
-        { "name": "Whatsapp", "url": "https://web.whatsapp.com/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" }
+        {"name": "Gmail", "url": "http://gmail.com/"},
+        {"name": "Outlook", "url": "http://outlook.com/"}
+      ]
+    },
+    { "name": "Images", "links": [
+      {"name": "Google Images", "url": "https://www.google.com/imghp?hl=en&authuser=0&ogbl" },
+        { "name": "Getty", "url": "https://www.gettyimages.com/editorial-images" },
+        { "name": "Beatsnoop", "url": "https://gettyimages-downloader.beatsnoop.com/" },
+        { "name": "Sofifa", "url": "https://sofifa.com/?offset=20" }
+      ]
+    },
+    { "name": "Sports", "links": [
+        { "name": "Pakpassion", "url": "https://ppforum.pakpassion.net/forums/cricket.9/" },
+        { "name": "Planetcricket", "url": "https://www.planetcricket.org/forums/" },
+        { "name": "Cricinfo", "url": "https://www.espncricinfo.com/" },
+        {"name": "Tamasha", "url": "https://tamashaweb.com"}
+      ]
+    },
+    { "name": "Study", "links": [
+        { "name": "Github", "url": "https://github.com" },
+        {"name": "Copilot AI", "url": "https://github.com/marketplace/models/azure-openai/gpt-4o/playground?compare_to=DeepSeek-R1"},
+        { "name": "Horizon", "url": "https://horizon.ucp.edu.pk/student/dashboard" },
+        {"name": "Onedrive", "url": "https://onlinepgc-my.sharepoint.com/my"}
+        
       ]
     },
     {
-      "name": "Others", "links": [
-        {"name": "Zimbra", "url": "https://mail.iitp.ac.in/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "DOTABUFF", "url": "https://www.dotabuff.com/"}
+      "name": "AIs", "links": [
+        
+        { "name": "GPT", "url": "https://chatgpt.com/" },
+        { "name": "Deepseek", "url": "https://chat.deepseek.com/" },
+        { "name": "Gemini", "url": "https://gemini.google.com/" }
       ]
     }
   ],
-  "user": "Anshul",
+  "user": "Salman",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false
