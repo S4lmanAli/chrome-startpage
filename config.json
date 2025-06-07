@@ -9,7 +9,7 @@
         { "name": "Instagram", "url": "https://instagram.com" },
         {"name": "Gmail", "url": "http://gmail.com/"},
         {"name": "Outlook", "url": "https://outlook.office365.com/mail/"},
-        {"name": "Twitter", "url": "https:/x.com/"}
+        {"name": "Twitter", "url": "https://x.com/home"}
       ]
     },
     { "name": "Images", "links": [
