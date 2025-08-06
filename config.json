@@ -2,7 +2,7 @@
   "squares": [
     { "name": "Media", "links": [
         { "name": "Youtube", "url": "https://youtube.com" },
-      { "name": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/" }
+      { "name": "Cambridge", "url": "https://dictionary.cambridge.org/" }
       ]
     },
     { "name": "Social", "links": [
