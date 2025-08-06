@@ -1,7 +1,8 @@
 {
   "squares": [
     { "name": "Media", "links": [
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Youtube", "url": "https://youtube.com" },
+      { "name": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/" }
       ]
     },
     { "name": "Social", "links": [
@@ -16,14 +17,15 @@
       {"name": "Google Images", "url": "https://www.google.com/imghp?hl=en&authuser=0&ogbl" },
         { "name": "Getty", "url": "https://www.gettyimages.com/editorial-images" },
         { "name": "Beatsnoop", "url": "https://gettyimages-downloader.beatsnoop.com/" },
-        { "name": "Sofifa", "url": "https://sofifa.com/?offset=20" }
+        { "name": "Deviantart", "url": "https://deviantart.com" }
       ]
     },
     { "name": "Sports", "links": [
         { "name": "Pakpassion", "url": "https://ppforum.pakpassion.net/forums/cricket.9/" },
         { "name": "Planetcricket", "url": "https://www.planetcricket.org/forums/" },
         { "name": "Cricinfo", "url": "https://www.espncricinfo.com/" },
-        {"name": "Tamasha", "url": "https://tamashaweb.com"}
+        {"name": "Tamasha", "url": "https://tamashaweb.com"},
+      { "name": "Sofifa", "url": "https://sofifa.com/?offset=20" }
       ]
     },
     { "name": "Study", "links": [
